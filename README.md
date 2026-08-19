@@ -1,6 +1,6 @@
 # 🕷️ AracnoIF
 
-O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do IFSP.
+O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do **Instituto Federal de São Paulo (IFSP)**.
 
 A aplicação busca auxiliar os alunos na **localização de salas e professores**, além de oferecer recursos de comunicação e acesso a informações acadêmicas de forma simples e intuitiva.
 
@@ -8,7 +8,7 @@ O projeto possui uma identidade visual inspirada no universo do **Homem-Aranha**
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação que ajude os estudantes a se localizar e acessar informações importantes dentro do ambiente acadêmico.
+Desenvolver uma aplicação que ajude os estudantes a se localizar dentro do ambiente acadêmico e acessar informações importantes relacionadas às aulas, salas e professores.
 
 ## 💡 Funcionalidades planejadas
 
@@ -19,7 +19,7 @@ Desenvolver uma aplicação que ajude os estudantes a se localizar e acessar inf
 * 🔔 Informação sobre o início das aulas;
 * 👤 Cadastro com nome, prontuário e semestre;
 * 🕷️ Interface inspirada no Homem-Aranha;
-* 🎭 Cada professor poderá ser representado por um vilão/personagem;
+* 🎭 Representação dos professores por personagens/vilões;
 * 🕸️ Tela de carregamento com frases temáticas.
 
 ## 📁 Organização do projeto
@@ -37,34 +37,43 @@ AracnoIF/
 └── .gitignore
 ```
 
-A pasta `docs` será utilizada para armazenar os documentos de modelagem, requisitos, diagramas e protótipos.
+### 📄 Documentação
 
-A pasta `src` será utilizada para armazenar o código-fonte da aplicação.
+A pasta `docs` será utilizada para armazenar os documentos relacionados ao desenvolvimento do projeto, incluindo:
 
-## 🚧 Status
+* Documentos de modelagem;
+* Levantamento de requisitos;
+* Diagramas;
+* Protótipos e designs das telas.
+
+### 💻 Código-fonte
+
+A pasta `src` será utilizada para armazenar o código-fonte da aplicação durante o desenvolvimento do projeto.
+
+## 🚧 Status do projeto
 
 **Em desenvolvimento.**
 
-Atualmente, o AracnoIF encontra-se na fase de planejamento, levantamento de requisitos e prototipação.
+Atualmente, o **AracnoIF** encontra-se na fase de planejamento, levantamento de requisitos e prototipação.
 
 ## 👥 Equipe
 
-João Diego Martins
-Leonardo Eufrazino Grego
-Gabriel Rodrigues Nakamura 
-Daniel Sacchetti Claret
-Luigi Rezhaggi
-
+* João Diego Martins
+* Leonardo Eufrazino Grego
+* Gabriel Rodrigues Nakamura
+* Daniel Sacchetti Claret
+* Luigi Rezhaggi
 
 ## 🏫 Instituição
 
 **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo — IFSP**
 
-Curso: Análise e desenvolvimento de sistemas 
-Disciplina: ANÁLISE ORIENTADA A OBJETOS
-Professora: Ana Paula Giancoli
-Semestre: 3º semestre de 2026
+**Curso:** Análise e Desenvolvimento de Sistemas
+**Disciplina:** Análise Orientada a Objetos
+**Professora:** Ana Paula Giancoli
+**Semestre do curso:** 3º semestre
+**Ano:** 2026
 
 ---
 
-> Projeto desenvolvido para fins acadêmicos.
+> 🕷️ Projeto desenvolvido para fins acadêmicos como parte da disciplina de Análise Orientada a Objetos do curso de Análise e Desenvolvimento de Sistemas do IFSP.
