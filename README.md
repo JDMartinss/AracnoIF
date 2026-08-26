@@ -1,6 +1,6 @@
 # 🕷️ AracnoIF
 
-O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do **Instituto Federal de São Paulo (IFSP)**.
+O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)**.
 
 A aplicação busca auxiliar os alunos na **localização de salas e professores**, além de oferecer recursos de comunicação e acesso a informações acadêmicas de forma simples e intuitiva.
 
@@ -8,7 +8,7 @@ O projeto possui uma identidade visual inspirada no universo do **Homem-Aranha**
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação que ajude os estudantes a se localizar dentro do ambiente acadêmico e acessar informações importantes relacionadas às aulas, salas e professores.
+Desenvolver uma aplicação que auxilie os estudantes a se localizar dentro do ambiente acadêmico e acessar informações importantes relacionadas às aulas, salas e professores.
 
 ## 💡 Funcionalidades planejadas
 
@@ -29,6 +29,7 @@ AracnoIF/
 ├── docs/
 │   ├── modelagem/
 │   ├── requisitos/
+│   │   └── AracnoIF_ListagemRequisitos.pdf
 │   └── prototipos/
 │
 ├── src/
@@ -37,16 +38,21 @@ AracnoIF/
 └── .gitignore
 ```
 
-### 📄 Documentação
+## 📄 Documentação
 
-A pasta `docs` será utilizada para armazenar os documentos relacionados ao desenvolvimento do projeto, incluindo:
+A pasta `docs` é utilizada para armazenar os documentos relacionados ao desenvolvimento e planejamento do projeto.
 
-* Documentos de modelagem;
-* Levantamento de requisitos;
-* Diagramas;
-* Protótipos e designs das telas.
+### Requisitos
 
-### 💻 Código-fonte
+* ✅ [Listagem de Requisitos](docs/requisitos/AracnoIF_ListagemRequisitos.pdf)
+
+### Outros documentos
+
+* 🚧 Documentos de modelagem;
+* 🚧 Diagramas;
+* 🚧 Protótipos e designs das telas.
+
+## 💻 Código-fonte
 
 A pasta `src` será utilizada para armazenar o código-fonte da aplicação durante o desenvolvimento do projeto.
 
@@ -54,7 +60,15 @@ A pasta `src` será utilizada para armazenar o código-fonte da aplicação dura
 
 **Em desenvolvimento.**
 
-Atualmente, o **AracnoIF** encontra-se na fase de planejamento, levantamento de requisitos e prototipação.
+Atualmente, o **AracnoIF** encontra-se na fase de planejamento, modelagem e prototipação.
+
+### 📊 Progresso
+
+* ✅ Definição da proposta do projeto;
+* ✅ Levantamento e listagem de requisitos;
+* 🚧 Modelagem do sistema;
+* 🚧 Desenvolvimento dos protótipos;
+* ⏳ Implementação da aplicação.
 
 ## 👥 Equipe
 
@@ -76,4 +90,4 @@ Atualmente, o **AracnoIF** encontra-se na fase de planejamento, levantamento de 
 
 ---
 
-> 🕷️ Projeto desenvolvido para fins acadêmicos como parte da disciplina de Análise Orientada a Objetos do curso de Análise e Desenvolvimento de Sistemas do IFSP.
+> 🕷️ Projeto desenvolvido para fins acadêmicos como parte da disciplina de **Análise Orientada a Objetos** do curso de **Análise e Desenvolvimento de Sistemas** do IFSP.
