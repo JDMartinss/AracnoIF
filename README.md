@@ -1,93 +1,89 @@
 # 🕷️ AracnoIF
 
-O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)**.
+O **AracnoIF** é um projeto acadêmico desenvolvido com o objetivo de facilitar a rotina dos estudantes dentro do **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP) — Campus Bragança Paulista**.
 
-A aplicação busca auxiliar os alunos na **localização de salas e professores**, além de oferecer recursos de comunicação e acesso a informações acadêmicas de forma simples e intuitiva.
+A aplicação busca auxiliar os alunos na **localização de salas e professores**, oferecendo um sistema de navegação interna pelo campus, além de recursos de comunicação e acesso a informações acadêmicas de forma simples e intuitiva.
 
 O projeto possui uma identidade visual inspirada no universo do **Homem-Aranha**, utilizando essa temática na interface e na experiência do usuário.
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação que auxilie os estudantes a se localizar dentro do ambiente acadêmico e acessar informações importantes relacionadas às aulas, salas e professores.
+Desenvolver uma aplicação capaz de auxiliar os estudantes na localização dentro do campus, permitindo encontrar salas e professores e visualizar uma rota até o destino desejado.
+
+A proposta é transformar as plantas dos diferentes pavimentos do campus em mapas digitais que poderão ser utilizados pelo sistema de navegação do AracnoIF.
+
+## 🗺️ Sistema de localização
+
+O AracnoIF pretende possuir um sistema de **navegação interna (indoor)**.
+
+O funcionamento planejado é:
+
+1. O professor informa no sistema em qual sala está localizado;
+2. A localização é armazenada e disponibilizada aos estudantes;
+3. O aluno seleciona o professor que deseja encontrar;
+4. O AracnoIF identifica o ponto inicial do aluno;
+5. O sistema calcula uma rota até a sala informada pelo professor;
+6. O mapa apresenta o caminho que o estudante deverá seguir.
+
+Para auxiliar na identificação da posição inicial do estudante dentro do prédio, poderão ser utilizados **QR Codes posicionados em pontos estratégicos do campus**.
+
+Futuramente, outras tecnologias de localização interna poderão ser estudadas.
+
+## 🏢 Mapas do campus
+
+O projeto utilizará as plantas dos **cinco pavimentos do campus** como referência para a construção dos mapas digitais.
+
+Os mapas deverão identificar elementos importantes para a navegação, como:
+
+- Salas de aula;
+- Laboratórios;
+- Corredores;
+- Escadas;
+- Elevadores;
+- Rampas;
+- Banheiros;
+- Entradas e saídas;
+- Pontos de conexão entre os pavimentos.
+
+Esses elementos serão utilizados posteriormente para calcular as rotas dentro do campus.
 
 ## 💡 Funcionalidades planejadas
 
-* 🗺️ Localização para guiar o estudante até a sala;
-* 👨‍🏫 Visualização e seleção de professores;
-* 📚 Informações sobre as matérias de cada professor;
-* 💬 Canal de comunicação;
-* 🔔 Informação sobre o início das aulas;
-* 👤 Cadastro com nome, prontuário e semestre;
-* 🕷️ Interface inspirada no Homem-Aranha;
-* 🎭 Representação dos professores por personagens/vilões;
-* 🕸️ Tela de carregamento com frases temáticas.
+- 🗺️ Navegação interna pelo campus;
+- 📍 Cálculo de rota até salas e professores;
+- 📱 Identificação da localização inicial por QR Code;
+- 🏢 Visualização dos diferentes pavimentos;
+- 👨‍🏫 Visualização e seleção de professores;
+- 📌 Professor poderá informar sua localização atual;
+- 📚 Informações sobre as matérias de cada professor;
+- 💬 Canal de comunicação;
+- 🔔 Informações sobre o início das aulas;
+- 👤 Cadastro com nome, prontuário e semestre;
+- 🕷️ Interface inspirada no Homem-Aranha;
+- 🎭 Representação dos professores por personagens/vilões;
+- 🕸️ Tela de carregamento com frases temáticas.
 
 ## 📁 Organização do projeto
 
 ```text
 AracnoIF/
 ├── docs/
+│   ├── mapas/
+│   │   └── originais/
+│   │       ├── 1-andar.jpeg
+│   │       ├── 2-andar.jpeg
+│   │       ├── 3-andar.jpeg
+│   │       ├── 4-andar.jpeg
+│   │       └── 5-andar.jpeg
+│   │
 │   ├── modelagem/
+│   │
 │   ├── requisitos/
 │   │   └── AracnoIF_ListagemRequisitos.pdf
+│   │
 │   └── prototipos/
 │
 ├── src/
 │
 ├── README.md
 └── .gitignore
-```
-
-## 📄 Documentação
-
-A pasta `docs` é utilizada para armazenar os documentos relacionados ao desenvolvimento e planejamento do projeto.
-
-### Requisitos
-
-* ✅ [Listagem de Requisitos](docs/requisitos/AracnoIF_ListagemRequisitos.pdf)
-
-### Outros documentos
-
-* 🚧 Documentos de modelagem;
-* 🚧 Diagramas;
-* 🚧 Protótipos e designs das telas.
-
-## 💻 Código-fonte
-
-A pasta `src` será utilizada para armazenar o código-fonte da aplicação durante o desenvolvimento do projeto.
-
-## 🚧 Status do projeto
-
-**Em desenvolvimento.**
-
-Atualmente, o **AracnoIF** encontra-se na fase de planejamento, modelagem e prototipação.
-
-### 📊 Progresso
-
-* ✅ Definição da proposta do projeto;
-* ✅ Levantamento e listagem de requisitos;
-* 🚧 Modelagem do sistema;
-* 🚧 Desenvolvimento dos protótipos;
-* ⏳ Implementação da aplicação.
-
-## 👥 Equipe
-
-* João Diego Martins
-* Leonardo Eufrazino Grego
-* Gabriel Rodrigues Nakamura
-* Daniel Sacchetti Claret
-* Luigi Rezhaggi
-
-## 🏫 Instituição
-
-**Instituto Federal de Educação, Ciência e Tecnologia de São Paulo — IFSP**
-
-**Curso:** Análise e Desenvolvimento de Sistemas
-**Disciplina:** Análise Orientada a Objetos
-**Professora:** Ana Paula Giancoli
-**Semestre do curso:** 3º semestre
-**Ano:** 2026
-
----
-
-> 🕷️ Projeto desenvolvido para fins acadêmicos como parte da disciplina de **Análise Orientada a Objetos** do curso de **Análise e Desenvolvimento de Sistemas** do IFSP.
