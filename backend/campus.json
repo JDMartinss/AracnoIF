@@ -1,0 +1,248 @@
+[
+  {
+    "id": 101,
+    "name": "Laboratório de mecânica",
+    "floor": 1,
+    "node": "f1-r1"
+  },
+  {
+    "id": 102,
+    "name": "Laboratório de metalografia",
+    "floor": 1,
+    "node": "f1-r2"
+  },
+  {
+    "id": 103,
+    "name": "Solda",
+    "floor": 1,
+    "node": "f1-r3"
+  },
+  {
+    "id": 104,
+    "name": "Laboratório de ensaios não destrutivos",
+    "floor": 1,
+    "node": "f1-r4"
+  },
+  {
+    "id": 105,
+    "name": "Laboratório de ensaios mecânicos",
+    "floor": 1,
+    "node": "f1-r5"
+  },
+  {
+    "id": 106,
+    "name": "Sala do CTI",
+    "floor": 1,
+    "node": "f1-r6"
+  },
+  {
+    "id": 201,
+    "name": "Laboratório de eletrônica 1",
+    "floor": 2,
+    "node": "f2-r1"
+  },
+  {
+    "id": 202,
+    "name": "Laboratório de eletrônica 2",
+    "floor": 2,
+    "node": "f2-r2"
+  },
+  {
+    "id": 203,
+    "name": "Laboratório de eletrônica 3",
+    "floor": 2,
+    "node": "f2-r3"
+  },
+  {
+    "id": 204,
+    "name": "Laboratório de eletrônica 4",
+    "floor": 2,
+    "node": "f2-r4"
+  },
+  {
+    "id": 205,
+    "name": "Laboratório de CLP",
+    "floor": 2,
+    "node": "f2-r5"
+  },
+  {
+    "id": 206,
+    "name": "Laboratório de CNC",
+    "floor": 2,
+    "node": "f2-r6"
+  },
+  {
+    "id": 207,
+    "name": "Laboratório de hidráulica e pneumática",
+    "floor": 2,
+    "node": "f2-r7"
+  },
+  {
+    "id": 301,
+    "name": "Guarita",
+    "floor": 3,
+    "node": "f3-r1"
+  },
+  {
+    "id": 302,
+    "name": "Secretaria de atendimento ao aluno",
+    "floor": 3,
+    "node": "f3-r2"
+  },
+  {
+    "id": 303,
+    "name": "Pátio",
+    "floor": 3,
+    "node": "f3-r3"
+  },
+  {
+    "id": 304,
+    "name": "Cantina",
+    "floor": 3,
+    "node": "f3-r4"
+  },
+  {
+    "id": 305,
+    "name": "Biblioteca",
+    "floor": 3,
+    "node": "f3-r5"
+  },
+  {
+    "id": 306,
+    "name": "Terraço descoberto",
+    "floor": 3,
+    "node": "f3-r6"
+  },
+  {
+    "id": 401,
+    "name": "Informática 01",
+    "floor": 4,
+    "node": "f4-r1"
+  },
+  {
+    "id": 402,
+    "name": "Informática 02",
+    "floor": 4,
+    "node": "f4-r2"
+  },
+  {
+    "id": 403,
+    "name": "Informática 03",
+    "floor": 4,
+    "node": "f4-r3"
+  },
+  {
+    "id": 404,
+    "name": "Informática 04",
+    "floor": 4,
+    "node": "f4-r4"
+  },
+  {
+    "id": 405,
+    "name": "Informática 05",
+    "floor": 4,
+    "node": "f4-r5"
+  },
+  {
+    "id": 406,
+    "name": "Informática 08",
+    "floor": 4,
+    "node": "f4-r6"
+  },
+  {
+    "id": 407,
+    "name": "Laboratório de física",
+    "floor": 4,
+    "node": "f4-r7"
+  },
+  {
+    "id": 408,
+    "name": "Laboratório de artes e línguas",
+    "floor": 4,
+    "node": "f4-r8"
+  },
+  {
+    "id": 409,
+    "name": "Sala dos professores",
+    "floor": 4,
+    "node": "f4-r9"
+  },
+  {
+    "id": 501,
+    "name": "Sala de reunião 3",
+    "floor": 5,
+    "node": "f5-r1"
+  },
+  {
+    "id": 502,
+    "name": "Informática 07",
+    "floor": 5,
+    "node": "f5-r2"
+  },
+  {
+    "id": 503,
+    "name": "Informática 08 (5º pavimento)",
+    "floor": 5,
+    "node": "f5-r3"
+  },
+  {
+    "id": 504,
+    "name": "Informática 09",
+    "floor": 5,
+    "node": "f5-r4"
+  },
+  {
+    "id": 505,
+    "name": "Informática 10",
+    "floor": 5,
+    "node": "f5-r5"
+  },
+  {
+    "id": 506,
+    "name": "Sala de aula 01",
+    "floor": 5,
+    "node": "f5-r6"
+  },
+  {
+    "id": 507,
+    "name": "Sala de aula 02",
+    "floor": 5,
+    "node": "f5-r7"
+  },
+  {
+    "id": 508,
+    "name": "Sala de aula 03",
+    "floor": 5,
+    "node": "f5-r8"
+  },
+  {
+    "id": 509,
+    "name": "Sala de aula 04",
+    "floor": 5,
+    "node": "f5-r9"
+  },
+  {
+    "id": 510,
+    "name": "Sala de aula 05",
+    "floor": 5,
+    "node": "f5-r10"
+  },
+  {
+    "id": 511,
+    "name": "Sala de aula 06",
+    "floor": 5,
+    "node": "f5-r11"
+  },
+  {
+    "id": 512,
+    "name": "Sala de aula 07",
+    "floor": 5,
+    "node": "f5-r12"
+  },
+  {
+    "id": 513,
+    "name": "Sala de aula 08",
+    "floor": 5,
+    "node": "f5-r13"
+  }
+]
